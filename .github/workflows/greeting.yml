@@ -1,6 +1,7 @@
 name: Greeting
 on: 
-  [push,workflow_dispatch]:
+  push:
+  workflow_dispatch:
 jobs:
     test:
         runs-on: ubuntu-latest
