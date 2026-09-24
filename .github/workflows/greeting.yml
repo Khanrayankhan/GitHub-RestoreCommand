@@ -1,0 +1,9 @@
+name: Greeting
+on: 
+  push:
+jobs:
+    test:
+        runs-on: ubuntu-latest
+        steps:
+             - name: "Get Code"
+               run:  echo "Hello world!"
